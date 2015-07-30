@@ -6,7 +6,6 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 DISABLE_AUTO_UPDATE="false"
 COMPLETION_WAITING_DOTS="true"
 
-# Add wisely, as too many plugins slow down shell startup.
 plugins=(colored-man colorize command-not-found common-aliases composer cp extract git history history-substring-search ubuntu wp-cli zsh-syntax-highlighting)
 
 setopt BRACE_CCL
